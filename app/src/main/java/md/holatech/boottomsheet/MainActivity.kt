@@ -1,8 +1,10 @@
 package md.holatech.boottomsheet
 
-import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
+import md.holatech.boottomsheet.navigation.MainNavigationActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -10,8 +12,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         firstButton.setOnClickListener {
-            val mBottomSheetFragment = ModalBottomSheet()
-            mBottomSheetFragment.show(supportFragmentManager, "MY_BOTTOM_SHEET")
+            val intent = Intent(applicationContext, MainNavigationActivity::class.java)
+            startActivity(intent)
         }
     }
 }

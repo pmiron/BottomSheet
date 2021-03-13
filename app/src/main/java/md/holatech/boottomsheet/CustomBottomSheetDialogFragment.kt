@@ -8,7 +8,7 @@ import android.widget.Toast
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import kotlinx.android.synthetic.main.layout_modal_bottom_sheet.*
 
-class CustomBottomSheetDialogFragment : BottomSheetDialogFragment(){
+class CustomBottomSheetDialogFragment : BottomSheetDialogFragment() {
     companion object {
         const val TAG = "CustomBottomSheetDialogFragment"
     }
