@@ -7,14 +7,24 @@
     tools:context=".MainActivity">
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/firstButton"
+        android:id="@+id/firstContentButton"
         android:layout_width="@dimen/dimen_0"
         android:layout_height="@dimen/dimen_60"
         android:text="@string/option_one"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/secondContentButton"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/secondContentButton"
+        android:layout_width="@dimen/dimen_0"
+        android:layout_height="@dimen/dimen_60"
+        android:text="@string/option_two"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firstContentButton" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -24,13 +24,13 @@ class CustomBottomSheetDialogFragment : BottomSheetDialogFragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        firstButton.setOnClickListener {
+        firstContentButton.setOnClickListener {
             Toast.makeText(context, "First Button Clicked", Toast.LENGTH_SHORT).show()
         }
-        secondButton.setOnClickListener {
+        secondContentButton.setOnClickListener {
             Toast.makeText(context, "Second Button Clicked", Toast.LENGTH_SHORT).show()
         }
-        thirdButton.setOnClickListener {
+        thirdContentButton.setOnClickListener {
             Toast.makeText(context, "Third Button Clicked", Toast.LENGTH_SHORT).show()
         }
     }
