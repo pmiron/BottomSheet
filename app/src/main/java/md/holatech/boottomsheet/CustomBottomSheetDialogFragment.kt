@@ -6,7 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
-import kotlinx.android.synthetic.main.layout_modal_bottom_sheet.*
+import kotlinx.android.synthetic.main.fragment_custom_bottom_sheet_dialog.*
 
 class CustomBottomSheetDialogFragment : BottomSheetDialogFragment() {
     companion object {
@@ -18,11 +18,11 @@ class CustomBottomSheetDialogFragment : BottomSheetDialogFragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.layout_modal_bottom_sheet, container, false)
+        return inflater.inflate(R.layout.fragment_custom_bottom_sheet_dialog, container, false)
     }
 
-    override fun onActivityCreated(savedInstanceState: Bundle?) {
-        super.onActivityCreated(savedInstanceState)
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
 
         firstButton.setOnClickListener {
             Toast.makeText(context, "First Button Clicked", Toast.LENGTH_SHORT).show()
