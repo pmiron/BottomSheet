@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">BottomSheeet</string>
+    <string name="app_name">BottomSheet</string>
 
     <string name="option_one">Show bottom sheet with navigation</string>
     <string name="option_two">Show bottom sheet with an activity</string>
