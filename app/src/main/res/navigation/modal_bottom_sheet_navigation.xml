@@ -2,14 +2,14 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/bottom_sheet_navigation"
-    app:startDestination="@id/mainNavigationFragment">
+    app:startDestination="@id/modalMainNavigationFragment">
 
     <fragment
-        android:id="@+id/mainNavigationFragment"
-        android:name="md.holatech.boottomsheet.navigation.MainNavigationFragment"
+        android:id="@+id/modalMainNavigationFragment"
+        android:name="md.holatech.boottomsheet.navigation.ModalMainNavigationFragment"
         android:label="MainNavigationFragment">
         <action
-            android:id="@+id/action_mainNavigationFragment_to_customBottomSheetDialogFragment"
+            android:id="@+id/action_modalMainNavigationFragment_to_customBottomSheetDialogFragment"
             app:destination="@id/customBottomSheetDialogFragment" />
     </fragment>
 

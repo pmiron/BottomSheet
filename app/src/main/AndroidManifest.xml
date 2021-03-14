@@ -18,7 +18,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".navigation.MainNavigationActivity" />
-        <activity android:name=".activity.BottomSheetActivity" />
+        <activity android:name=".navigation.ModalMainNavigationActivity" />
+        <activity android:name=".activity.ModalBottomSheetActivity" />
+        <activity android:name=".fragment.ModalWithFragmentBottomSheetActivity" />
     </application>
 </manifest>

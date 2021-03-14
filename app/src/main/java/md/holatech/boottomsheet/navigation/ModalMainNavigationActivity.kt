@@ -4,9 +4,9 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import md.holatech.boottomsheet.R
 
-class MainNavigationActivity : AppCompatActivity() {
+class ModalMainNavigationActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main_navigation)
+        setContentView(R.layout.activity_modal_main_navigation)
     }
 }

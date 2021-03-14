@@ -3,6 +3,7 @@
 
     <string name="option_one">Show bottom sheet with navigation</string>
     <string name="option_two">Show bottom sheet with an activity</string>
+    <string name="option_three">Show bottom sheet with a fragment</string>
 
     <string name="btn_one">Button 1</string>
     <string name="btn_two">Button 2</string>
