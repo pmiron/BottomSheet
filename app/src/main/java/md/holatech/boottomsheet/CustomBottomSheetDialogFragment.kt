@@ -51,7 +51,7 @@ class CustomBottomSheetDialogFragment : BottomSheetDialogFragment() {
             }
 
             override fun onSlide(bottomSheet: View, slideOffset: Float) {
-                Toast.makeText(context, "On Slide", Toast.LENGTH_SHORT).show()
+                //Toast.makeText(context, "On Slide", Toast.LENGTH_SHORT).show()
             }
         })
 
