@@ -1,4 +1,4 @@
-package md.holatech.boottomsheet
+package md.holatech.boottomsheet.modal
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,6 +9,7 @@ import com.google.android.material.bottomsheet.BottomSheetBehavior
 import com.google.android.material.bottomsheet.BottomSheetDialog
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import kotlinx.android.synthetic.main.fragment_custom_bottom_sheet_dialog.*
+import md.holatech.boottomsheet.R
 
 class CustomBottomSheetDialogFragment : BottomSheetDialogFragment() {
     companion object {

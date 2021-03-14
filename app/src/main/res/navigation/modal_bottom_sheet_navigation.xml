@@ -15,6 +15,6 @@
 
     <dialog
         android:id="@+id/customBottomSheetDialogFragment"
-        android:name="md.holatech.boottomsheet.CustomBottomSheetDialogFragment"
+        android:name="md.holatech.boottomsheet.modal.CustomBottomSheetDialogFragment"
         android:label="CustomBottomSheetDialogFragment" />
 </navigation>
