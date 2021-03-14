@@ -4,4 +4,6 @@
     <string name="btn_one">Show bottom sheet with navigation</string>
     <string name="btn_two">Button 2</string>
     <string name="btn_three">Button 3</string>
+
+    <string name="show_bottom_sheet">Show bottom sheet</string>
 </resources>

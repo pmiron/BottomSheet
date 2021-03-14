@@ -25,15 +25,12 @@ class CustomBottomSheetDialogFragment : BottomSheetDialogFragment() {
         super.onActivityCreated(savedInstanceState)
 
         firstButton.setOnClickListener {
-            //handle click event
             Toast.makeText(context, "First Button Clicked", Toast.LENGTH_SHORT).show()
         }
         secondButton.setOnClickListener {
-            //handle click event
             Toast.makeText(context, "Second Button Clicked", Toast.LENGTH_SHORT).show()
         }
         thirdButton.setOnClickListener {
-            //handle click event
             Toast.makeText(context, "Third Button Clicked", Toast.LENGTH_SHORT).show()
         }
     }
