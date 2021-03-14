@@ -15,6 +15,8 @@ class CustomBottomSheetDialogFragment : BottomSheetDialogFragment() {
         const val TAG = "CustomBottomSheetDialogFragment"
     }
 
+    override fun getTheme(): Int = R.style.BottomSheetMenuTheme
+
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
