@@ -13,6 +13,11 @@ class ModalWithFragmentBottomSheetFragment :
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         showBottomSheetButton.setOnClickListener {
+
+
+
+
+
             val customBottomSheetDialogFragment = CustomBottomSheetDialogFragment()
             customBottomSheetDialogFragment.show(
                 requireActivity().supportFragmentManager,
