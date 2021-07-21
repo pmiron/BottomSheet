@@ -2,4 +2,4 @@ root = true
 
 [*]
 
-disabled_rules = no-wildcard-imports, chain-wrapping
+disabled_rules = chain-wrapping
